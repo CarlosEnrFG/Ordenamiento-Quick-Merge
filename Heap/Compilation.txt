@@ -1,0 +1,12 @@
+COMPILATION:
+gcc SortHeap.o Heap_TEST.c -o HEAP_TEST.exe 
+gcc SortHeap.o Heap_TIME.c -o HEAP_TIME.exe 
+=====================================
+EXECUTION:
+Heap_TEST.exe n <numeros10millones.txt >>HEAP_TEST.txt
+Heap_TIME.exe n <numeros10millones.txt >>HEAP_TIME.txt
+=====================================
+.o Archive
+gcc -c SortHeap.c -o SortHeap.o
+
+
