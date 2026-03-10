@@ -1,0 +1,12 @@
+COMPILATION:
+gcc TADQuickSort.o quickSort_TEST.c -o quickSort_TEST.exe 
+gcc TADQuickSort.o quickSort_TIME.c -o quickSort_TIME.exe 
+=====================================
+EXECUTION:
+quickSort_TEST.exe n <numeros10millones.txt >>quickSort_TEST.txt
+quickSort_TIME.exe n <numeros10millones.txt >>quickSort_TIME.txt
+=====================================
+.o Archive
+gcc -c TADQuickSort.c -o TADQuickSort.o
+
+
